@@ -5,7 +5,7 @@ RUN apk --no-cache add openssl imagemagick perl
 ENV PHPREDIS_VERSION=5.3.7 \
     CONFIG_VAR_FLAG=WPFPM_ \
     PAGER=more \
-    WP_PLUGINS="nginx-helper redis-cache" \
+    WP_PLUGINS="nginx-helper redis-cache query-monitor arvancloud-object-storage wp-config-file-editor woocommerce" \
     ENABLE_HYPERDB=false \
     ENABLE_CRON=false
 
